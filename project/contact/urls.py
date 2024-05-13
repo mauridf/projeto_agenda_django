@@ -1,7 +1,7 @@
 # type:ignore
 from django.urls import path
 
-from contact import views
+from project.contact import views
 
 app_name = 'contact'
 

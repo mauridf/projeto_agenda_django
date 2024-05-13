@@ -3,7 +3,7 @@ from django.contrib.auth.decorators import login_required
 from django.contrib.auth.forms import AuthenticationForm
 from django.shortcuts import redirect, render
 
-from contact.forms import RegisterForm, RegisterUpdateForm
+from project.contact.forms import RegisterForm, RegisterUpdateForm
 
 
 def register(request):
